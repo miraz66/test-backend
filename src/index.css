@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animationRight {
+  transform: translateX(100%);
+  transition: 0.6s ease;
+  opacity: 0;
+}
+
+.animationLeft {
+  transform: translateX(-100%);
+  transition: 0.6s ease;
+  opacity: 0;
+}
+
+.animationTop {
+  transform: translateY(-50%);
+  transition: 0.6s ease;
+  opacity: 0;
+}
+
+.animationBottom {
+  transform: translateY(50%);
+  transition: 0.6s ease;
+  opacity: 0;
+}
+
+.show {
+  transform: translateX(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.tilt {
+  height: 200px;
+  width: 300px;
+  background-color: grey;
+  margin: 0 auto;
+  transition: transform 0.1s;
+}
+
+.tilt:hover {
+  cursor: pointer;
+}
+
+.backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+/* styles.css */
+/* ... other styles ... */
+
+/* .star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  clip-path: polygon(
+    50% 0%,
+    61.8% 38.2%,
+    100% 35.4%,
+    68.2% 57.3%,
+    79.1% 91.3%,
+    50% 70.9%,
+    20.9% 91.3%,
+    31.8% 57.3%,
+    0% 35.4%,
+    38.2% 38.2%
+  );
+  animation: twinkle 1s linear infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} */
+
