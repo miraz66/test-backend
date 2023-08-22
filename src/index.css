@@ -26,9 +26,16 @@
   opacity: 0;
 }
 
+.animationPpUP {
+  transform: scale(0.7);
+  transition: 0.6s ease;
+  opacity: 0;
+}
+
 .show {
   transform: translateX(0);
   transform: translateY(0);
+  transform: scale(1);
   opacity: 1;
 }
 
@@ -59,7 +66,6 @@
   padding: 15px;
   border-radius: 4px;
 }
-
 
 /* styles.css */
 /* ... other styles ... */
@@ -95,4 +101,3 @@
     opacity: 0.5;
   }
 } */
-
