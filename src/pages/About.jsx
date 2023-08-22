@@ -56,7 +56,7 @@ function About() {
       </div>
 
       <div className="flex justify-center items-center h-[30rem] w-screen  bg-rose-400">
-        <p className="w-96 h-52 bg-yellow-300 rounded-lg shadow-lg  shadow-gray-500 text-3xl text-center pt-10 animationRight">
+        <p className="w-96 h-52 bg-yellow-300 rounded-lg shadow-lg  shadow-gray-500 text-3xl text-center pt-10 animationPopUP">
           Scroll
         </p>
       </div>
@@ -68,7 +68,7 @@ function About() {
       </div>
 
       <div className="flex justify-center items-center h-[30rem] w-screen  bg-amber-500">
-        <p className="w-96 h-52 bg-yellow-300 rounded-lg shadow-lg  shadow-gray-500 text-3xl text-center pt-10 animationRight">
+        <p className="w-96 h-52 bg-yellow-300 rounded-lg shadow-lg  shadow-gray-500 text-3xl text-center pt-10 animationPopUP">
           Scroll
         </p>
       </div>
@@ -81,7 +81,7 @@ function About() {
       </div>
 
       <div className="flex justify-center items-center h-[30rem] w-screen  bg-cyan-500">
-        <p className="w-96 h-52 bg-yellow-300 rounded-lg shadow-lg  shadow-gray-500 text-3xl text-center pt-10 animationRight">
+        <p className="w-96 h-52 bg-yellow-300 rounded-lg shadow-lg  shadow-gray-500 text-3xl text-center pt-10 animationPopUP">
           Scroll
         </p>
       </div>

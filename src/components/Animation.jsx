@@ -6,6 +6,7 @@ export default function Animation() {
     const animationLeft = document.querySelectorAll(".animationLeft");
     const animationBottom = document.querySelectorAll(".animationBottom");
     const animationTop = document.querySelectorAll(".animationTop");
+    const animationPopUP = document.querySelectorAll(".animationPopUP");
 
     window.addEventListener("scroll", chackBoxs);
 
@@ -43,6 +44,16 @@ export default function Animation() {
       });
 
       animationTop.forEach((box) => {
+        const boxTop = box.getBoundingClientRect().top;
+
+        if (boxTop < triggerButton) {
+          box.classList.add("show");
+        } else {
+          box.classList.remove("show");
+        }
+      });
+
+      animationPopUP.forEach((box) => {
         const boxTop = box.getBoundingClientRect().top;
 
         if (boxTop < triggerButton) {
