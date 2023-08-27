@@ -13,6 +13,7 @@ import NotFound from "./components/NotFound";
 import Login from "./components/Login";
 import { baseUrl } from "./utils/Sheare";
 import Singin from "./components/Singin";
+import Test from "./pages/Test";
 
 export const LoginContext = createContext();
 
@@ -61,6 +62,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/grid" element={<Grid />} />
+              <Route path="/test" element={<Test />} />
 
               <Route path="/login" element={<Login />} />
               <Route path="/singin" element={<Singin />} />

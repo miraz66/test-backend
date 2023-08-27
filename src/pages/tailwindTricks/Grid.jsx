@@ -1,6 +1,9 @@
+import Header from "../../components/Header";
+
 function Grid() {
   return (
     <>
+      <Header />
       <div className="max-w-7xl mx-auto py-10">
         <div className="group grid grid-cols-4 gap-10 sm:max-md:grid-cols-3">
           <div className="w-full aspect-video bg-purple-400 group-hover:bg-yellow-400 group-hover:duration-500 group-hover:ease-in-out delay-300"></div>
