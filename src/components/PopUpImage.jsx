@@ -23,6 +23,9 @@ export default function PopUpImage({ imgID }) {
         {data.map(
           ({ id, div }) => imgID == id && <img key={id} src={div} alt="" />
         )}
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
       </div>
     </>
   );
