@@ -19,7 +19,7 @@ export default function PopUpImage({ imgID }) {
   console.log(imgID);
   return (
     <>
-      <div className="bg-yellow-200 h-2">
+      <div className="bg-yellow-200 h-2 w-2">
         {data.map(
           ({ id, div }) => imgID == id && <img key={id} src={div} alt="" />
         )}
