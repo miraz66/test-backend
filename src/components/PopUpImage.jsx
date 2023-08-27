@@ -31,6 +31,9 @@ export default function PopUpImage({ imgID }) {
         <div className=""></div>
         <div className=""></div>
         <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
       </div>
     </>
   );
