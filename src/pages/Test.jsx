@@ -9,14 +9,21 @@ export default function Test() {
       <div onClick={() => setShow(!show)} className="cursor-pointer">
         click
       </div>
-      <div className="relative bg-black h-screen"></div>
-      <div
-        className={
-          !show
-            ? "bg-white h-screen w-full absolute top-10 translate-y-full ease-in-out duration-300"
-            : "bg-white h-screen w-full absolute top-10 translate-y-0 ease-in-out duration-300"
-        }
-      ></div>
+      <div className="relative bg-black">
+        <div className="h-screen">sdfsdf</div>
+        <div className="">sdfsdf</div>
+        <div className="">sdfsdf</div>
+        <div className="">sdfsdf</div>
+        <div
+          className={
+            !show
+              ? "bg-white h-screen absolute top-10 w-full ease-in-out duration-300"
+              : "bg-white h-screen w-full ease-in-out duration-300"
+          }
+        >
+          dsfsdfsdfsdf
+        </div>
+      </div>
     </>
   );
 }
