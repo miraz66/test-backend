@@ -20,8 +20,8 @@ export default function Header() {
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
-            <div className="mx-auto bg-white max-full py-3 px-2 2xl:py-5 sm:px-8 lg:px-10">
-              <div className="relative md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl  mx-auto flex h-16 items-center justify-between">
+            <div className="mx-auto bg-white py-3 px-2 2xl:py-5 sm:px-8 lg:px-10">
+              <div className="relative md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl mx-auto flex h-16 items-center justify-between">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
