@@ -66,9 +66,6 @@ function Test() {
       <div className=""></div>
       <div className=""></div>
       <div className=""></div>
-      <div className=""></div>
-      <div className=""></div>
-      <div className=""></div>
     </>
   );
 }
