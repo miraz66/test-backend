@@ -10,15 +10,16 @@ export default function Test() {
         click
       </div>
       <div className="relative bg-black">
-        <div className="h-screen">sdfsdf</div>
-        <div className="">sdfsdf</div>
-        <div className="">sdfsdf</div>
-        <div className="">sdfsdf</div>
+        <div className="h-screen ease-in-out duration-500">
+          <div className="">sdfsdf</div>
+          <div className="">sdfsdf</div>
+          <div className="">sdfsdf</div>
+        </div>
         <div
           className={
             !show
-              ? "bg-white h-screen absolute top-10 w-full ease-in-out duration-300"
-              : "bg-white h-screen w-full ease-in-out duration-300"
+              ? "bg-white h-screen absolute top-10 w-full ease-in-out duration-300 "
+              : "bg-white h-screen w-full ease-in-out duration-300 "
           }
         >
           dsfsdfsdfsdf
