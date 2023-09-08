@@ -25,6 +25,7 @@ export default function Test() {
           dsfsdfsdfsdf
         </div>
       </div>
+      {!show && <div className="h-screen bg-white"></div>}
     </>
   );
 }
