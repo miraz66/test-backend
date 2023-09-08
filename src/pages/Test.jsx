@@ -5,25 +5,26 @@ export default function Test() {
 
   console.log(show);
   return (
-    <div className="">
+    <>
       <div onClick={() => setShow(!show)} className="cursor-pointer">
         click
       </div>
-      <div className="relative">
-        <div className="h-screen ease-in-out duration-500">
+      <div className="relative h-screen bg-black overflow-y-hidden">
+        <div className="">
           <div className="">sdfsdf</div>
           <div className="">sdfsdf</div>
           <div className="">sdfsdf</div>
         </div>
-
         <div
           className={
-            show
-              ? "bg-white h-screen absolute top-0 translate-y-0 w-full ease-in-out duration-300"
-              : "bg-white h-screen w-full ease-in-out duration-300"
+            !show
+              ? "bg-white h-screen translate-y-full w-full ease-in-out duration-300 "
+              : "bg-white h-screen w-full ease-in-out duration-300 translate-y-0"
           }
-        ></div>
+        >
+          dsfsdfsdfsdf
+        </div>
       </div>
-    </div>
+    </>
   );
 }
