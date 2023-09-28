@@ -8,7 +8,7 @@ export default function PHeader() {
         <HomeDisplay css="h-[42rem] lg:h-[50rem] xl:h-[48rem] relative rounded-t-[40px]">
           <div className="absolute top-52 md:top-60 lg:top-72 xl:top-80 w-full">
             <div className="max-w-7xl mx-5 lg:mx-10 2xl:mx-auto">
-              <div className="max-w-3xl">
+              <div className="max-w-3xl mx-auto">
                 <span>HELLO, I'M</span>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl uppercase text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
                   Md.MIRAJUL ISLAM

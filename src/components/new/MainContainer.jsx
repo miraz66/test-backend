@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useState } from "react";
 import Nav from "./Nav";
+import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function MainContainer({ children }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -161,35 +162,9 @@ export default function MainContainer({ children }) {
               </button>
               <button className="" onClick={toggleMenu}>
                 {isOpen ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-7 h-10"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3.75 9h16.5m-16.5 6.75h16.5"
-                    />
-                  </svg>
+                  <Bars2Icon className="w-7 h-10" />
                 ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-7 h-10"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
+                  <XMarkIcon className="w-7 h-10" />
                 )}
               </button>
             </div>
@@ -201,10 +176,24 @@ export default function MainContainer({ children }) {
           <Nav />
 
           <div
+            style={{ clipPath: "polygon(100% 0, 0% 100%, 0 0)" }}
             className={
               !isOpen
-                ? "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
-                : "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
+                ? "bg-neutral-100 w-9/12 h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 left-0 -translate-x-full ease-in-out duration-500"
+                : "bg-neutral-100 w-full h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 left-0 ease-in-out duration-500 translate-y-0 rounded-lt-[4rem]"
+            }
+          >
+            {children}
+          </div>
+
+          <div
+            style={{
+              clipPath: "polygon(100% -1px, -1% 100%, 100% 100%)",
+            }}
+            className={
+              !isOpen
+                ? "bg-neutral-100 w-9/12 h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 right-0 translate-x-full ease-in-out duration-500 rounded-t-[2rem]"
+                : "bg-neutral-100 w-full h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 right-0 ease-in-out duration-500 translate-y-0"
             }
           >
             {children}
