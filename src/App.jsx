@@ -14,6 +14,7 @@ import Login from "./components/Login";
 import { baseUrl } from "./utils/Sheare";
 import Singin from "./components/Singin";
 import Test from "./pages/Test";
+import PHeader from "./components/PHeader";
 
 export const LoginContext = createContext();
 
@@ -66,6 +67,8 @@ function App() {
 
               <Route path="/login" element={<Login />} />
               <Route path="/singin" element={<Singin />} />
+
+              <Route path="/header" element={<PHeader />} />
 
               <Route path="/404" element={<NotFound />} />
             </Routes>
