@@ -172,8 +172,8 @@ export default function MainContainer({ children }) {
             style={{ clipPath: "polygon(100% 0, 0% 100%, 0 0)" }}
             className={
               !isOpen
-                ? "bg-neutral-100 w-9/12 h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 left-0 -translate-x-full ease-in-out duration-500"
-                : "bg-neutral-100 w-full h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 left-0 ease-in-out duration-500 translate-y-0 rounded-lt-[4rem]"
+                ? "bg-white w-9/12 h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 left-0 -translate-x-full ease-in-out duration-500"
+                : "bg-white w-full h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 left-0 ease-in-out duration-500 translate-y-0 rounded-lt-[4rem]"
             }
           >
             {children}
@@ -185,8 +185,8 @@ export default function MainContainer({ children }) {
             }}
             className={
               !isOpen
-                ? "bg-neutral-100 w-9/12 h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 right-0 translate-x-full ease-in-out duration-500 rounded-t-[2rem]"
-                : "bg-neutral-100 w-full h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 right-0 ease-in-out duration-500 translate-y-0"
+                ? "bg-white w-9/12 h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 right-0 translate-x-full ease-in-out duration-500 rounded-t-[2rem]"
+                : "bg-white w-full h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 right-0 ease-in-out duration-500 translate-y-0"
             }
           >
             {children}
