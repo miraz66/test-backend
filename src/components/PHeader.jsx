@@ -5,7 +5,7 @@ export default function PHeader() {
   return (
     <>
       <MainContainer>
-        <HomeDisplay css="h-[42rem] lg:h-[50rem] xl:h-[48rem] relative rounded-t-[40px]">
+        <HomeDisplay css="h-screen relative ">
           <div className="absolute top-52 md:top-60 lg:top-72 xl:top-60 w-full">
             <div className="max-w-7xl mx-5 lg:mx-10 2xl:mx-auto">
               <div className="max-w-4xl">
@@ -14,9 +14,20 @@ export default function PHeader() {
                   Md.MIRAJUL ISLAM
                 </h1>
 
-                <p className="text-lg lg:text-xl pt-16 text-neutral-60 font-medium">
+                <p className="text-lg lg:text-xl text-neutral-60 font-medium">
                   Web Develops and front-end, Backend Developer Skills:
                   CSS,React,Python, Django-rest-api
+                </p>
+
+                <p>
+                  Innovative, task-driven professional with 8+ years of
+                  experience in web design and development across diverse
+                  industries. Equipped with a record of success in consistently
+                  identifying and providing the technological needs of companies
+                  through ingenious innovation. Proficient in developing
+                  databases, creating user interfaces, writing and testing
+                  codes, troubleshooting simple/complex issues, and implementing
+                  new features based on user feedback.
                 </p>
               </div>
               <svg
@@ -700,6 +711,8 @@ export default function PHeader() {
             </div>
           </div>
         </HomeDisplay>
+
+        {/* <div className="h-32 bg-zinc-500"></div> */}
       </MainContainer>
     </>
   );

@@ -75,12 +75,12 @@ function App() {
           </BrowserRouter>
         </LoginContext.Provider>
         <div className="mx-auto">
-          <a
+          {/* <a
             className="py-3 text-3xl font-bold bg-yellow-300 text-center block"
             href="http://localhost:5173/"
           >
             Back
-          </a>
+          </a> */}
         </div>
       </div>
     </>
