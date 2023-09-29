@@ -8,44 +8,6 @@ export default function Test() {
         <div className="h-screen relative bg-white">
           <BodySvg />
           <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
-          <div className="absolute top-96 left-0">dsfsdfs</div>
         </div>
 
         <div className="">
