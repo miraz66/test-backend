@@ -45,6 +45,8 @@ export default function Test() {
           paragraph. A working thesis functions like a seed from which your
           paper, and your ideas, will grow. The whole process is an organic
           one—a natural progression from a seed to a full-blown paper where
+          one—a natural progression from a seed to a full-blown paper where
+          one—a natural progression from a seed to a full-blown paper where
           there are direct, familial relationships between all of the ideas in
           the paper. The decision about what to put into your paragraphs begins
           with the germination of a seed of ideas; this “germination process” is
