@@ -74,6 +74,8 @@ export default function Test() {
           one—a natural progression from a seed to a full-blown paper where
           there are direct, familial relationships between all of the ideas in
           the paper. The decision about what to put into your paragraphs begins
+          the paper. The decision about what to put into your paragraphs begins
+          the paper. The decision about what to put into your paragraphs begins
           with the germination of a seed of ideas; this “germination process” is
           better known as brainstorming. There are many techniques for
           brainstorming; whichever one you choose, this stage of paragraph
