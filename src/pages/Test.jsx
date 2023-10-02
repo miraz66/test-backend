@@ -107,53 +107,6 @@ export default function Test() {
           your thesis. What else should you keep in mind as you begin to create
           paragraphs? Every paragraph in a paper should be:
         </div>
-
-        <div className="">hello</div>
-        <div className="">hello</div>
-        <div className="">hello</div>
-        <div className="">hello</div>
-        <div className="">hello</div>
-        <div className="">hey</div>
-        <div className="">hey</div>
-        <div className="">hey</div>
-        <div className="">hey</div>
-        <div className="">hey</div>
-        <div className="">good</div>
-        <div className="">good</div>
-        <div className="">good</div>
-        <div className="">good</div>
-        <div className="">Nice</div>
-        <div className="">Nice</div>
-        <div className="">Nice</div>
-        <div className="">Nice</div>
-        <div className="">I will go to in batroom</div>
-        <div className="">I will go to in batroom</div>
-        <div className="">I will go to in batroom</div>
-        <div className="">I will go to in batroom</div>
-        <div className="">he is playing in the fild</div>
-        <div className="">he is playing in the fild</div>
-        <div className="">he is playing in the fild</div>
-        <div className="">I will go to home</div>
-        <div className="">I will go to home</div>
-        <div className="">I will go to home</div>
-        <div className="">I will go to home</div>
-        <div className="">I am go to home</div>
-        <div className="">I am go to home</div>
-        <div className="">I am go to home</div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
       </Test2>
     </>
   );
