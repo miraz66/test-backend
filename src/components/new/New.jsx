@@ -61,6 +61,10 @@ export default function New() {
       <div className=""></div>
       <div className=""></div>
       <div className=""></div>
+      <div className=""></div>
+      <div className=""></div>
+      <div className=""></div>
+      <div className=""></div>
 
       <div className=""></div>
     </>
