@@ -1,3 +1,7 @@
 export default function New() {
-  return <></>;
+  return (
+    <>
+      <div className=""></div>
+    </>
+  );
 }
