@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         display: ["Montserrat", "sans-serif"],
       },
+      backgroundImage: {
+        "custom-image": "url('/assets/gallery_2.jpg')",
+      },
     },
   },
   plugins: [],
