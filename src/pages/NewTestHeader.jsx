@@ -8,9 +8,9 @@ export default function NewTestHeader() {
         <div className="bg-green-50 absolute top-0 w-full rounded-t-[3rem]">
           <HomeDisplay
             svgHeight="h-[60rem]"
-            className="w-full lg:top-72 xl:top-60 overflow-hidden"
+            className="w-full absolute lg:top-72 xl:top-60 overflow-hidden"
           >
-            <div className="pb-5 max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto">
               Paragraphs What this handout is about This handout will help you
               understand how paragraphs are formed, how to develop stronger
               paragraphs, and how to completely and clearly express your ideas.
