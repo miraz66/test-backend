@@ -33,6 +33,8 @@ export default function NewTestHeader() {
             paragraphs, and how to completely and clearly express your ideas.
             What is a paragraph? Paragraphs are the building blocks of papers.
             Many students define paragraphs in terms of length: a paragraph is a
+            Many students define paragraphs in terms of length: a paragraph is a
+            Many students define paragraphs in terms of length: a paragraph is a
             group of at least five sentences, a paragraph is half a page long,
             etc. In reality, though, the unity and coherence of ideas among
             sentences is what constitutes a paragraph. A paragraph is defined as
